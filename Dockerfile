@@ -7,3 +7,5 @@ RUN apt-get update && apt-get -y install php5-curl
 
 # Remove default index.html
 RUN rm -f /var/www/html/index.html
+
+EXPOSE 80
